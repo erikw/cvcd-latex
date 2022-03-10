@@ -14,7 +14,7 @@ jobs:
       - name: Build with latexmk
         uses: yegor256/latexmk-action@0.3.0
         with:
-          packages: moderncv
+          packages: moderncv fontawesome5
       #- name: Push to personal website
       #  uses: dmnemec/copy_file_to_another_repo_action@main
       #  env:
