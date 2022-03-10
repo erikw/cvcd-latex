@@ -22,7 +22,7 @@ jobs:
         with:
           source_file: cv.pdf
           destination_repo: erikw/cvcd-website
-          destination_folder: assets
+          destination_branch: gh-pages
           user_email: erik.westrup@gmail.com
           user_name: erikw
           commit_message: "[CD] Updated cv.pdf"
