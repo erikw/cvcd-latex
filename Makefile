@@ -1,6 +1,6 @@
 PDF=cv.pdf
 
-.PHONY: all clean help
+.PHONY: all help clean
 
 # target: all - Default target. Build all PDF.
 all: $(PDF)
