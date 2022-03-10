@@ -1,4 +1,4 @@
-# CVCD - Continuously Deployed Tex CV Example
+# Continuously Deployed LaTeX CV Example - The LaTeX Source
 Example of how to continuously deploy a CV written in latex to a personal website.
 * This repo - repo the CV itself
 * TODO - the personal website using Jekyll deployed on GitHub Pages.
