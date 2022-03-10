@@ -1,0 +1,28 @@
+name: Deploy
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+    paths:
+      - '**.tex'
+      - .github/workflows/deploy.yml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build with latexmk
+        uses: yegor256/latexmk-action@0.3.0
+        with:
+          packages: moderncv
+      #- name: Push to personal website
+      #  uses: dmnemec/copy_file_to_another_repo_action@main
+      #  env:
+      #    API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      #  with:
+      #    source_file: cv.pdf
+      #    destination_repo: TODO
+      #    destination_folder: assets
+      #    user_email: erik.westrup@gmail.com
+      #    user_name: erikw
+      #    commit_message: "[CD] Updated cv.pdf"
