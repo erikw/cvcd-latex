@@ -1,4 +1,6 @@
 # Continuously Deployed LaTeX CV Example - The CV LaTeX Source
+[![Deploy](https://github.com/erikw/cvcd-latex/actions/workflows/deploy.yml/badge.svg)](https://github.com/erikw/cvcd-latex/actions/workflows/deploy.yml)
+
 Example of how to continuously deploy a CV written in LaTeX to a personal website in a different git repo.
 
 * [erikw/cvcd-latex](https://github.com/erikw/cvcd-latex) - The CV LaTeX source project
