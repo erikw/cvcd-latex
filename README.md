@@ -1,7 +1,8 @@
-# Continuously Deployed LaTeX CV Example - The LaTeX Source
-Example of how to continuously deploy a CV written in latex to a personal website.
-* This repo - repo the CV itself
-* TODO - the personal website using Jekyll deployed on GitHub Pages.
+# Continuously Deployed LaTeX CV Example - The CV LaTeX Source
+Example of how to continuously deploy a CV written in LaTeX to a personal website in a different git repo.
+
+* [erikw/cvcd-latex](https://github.com/erikw/cvcd-latex) - The CV LaTeX source project
+* [erikw/cvcd-website](https://github.com/erikw/cvcd-website) - Personal website (GitHub pages hosted Jekyll) to where the `cv.pdf` is deployed to.
 
 # The CV
 The CV is using the [moderncv](https://www.ctan.org/pkg/moderncv) package.
@@ -11,3 +12,5 @@ To render the CV, simply use `latexmk(1)` (see [.latexmkrc](.latexmkrc)):
 $ latexmk
 $ ls cv.pdf
 ```
+
+When updates to `cv.tex` is pushed to the main branch, the PDF will be built and published to the website in the GitHub Actions workflow [deploy.yml](.github/workflows/deploy.yml).
