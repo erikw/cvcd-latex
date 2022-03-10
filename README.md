@@ -15,4 +15,10 @@ $ latexmk
 $ ls cv.pdf
 ```
 
+or using the Makefile:
+```console
+$ make
+$ ls cv.pdf
+```
+
 When an update to `cv.tex` is pushed to the main branch, the PDF will be built and published to the website in the GitHub Actions workflow [deploy.yml](.github/workflows/deploy.yml).
