@@ -15,7 +15,7 @@ $ latexmk
 $ ls cv.pdf
 ```
 
-or using the Makefile:
+or using the [Makefile](Makefile):
 ```console
 $ make
 $ ls cv.pdf
