@@ -3,7 +3,7 @@
 
 Example of how to continuously deploy a CV written in LaTeX to a personal website in a different git repo.
 
-* [erikw/cvcd-latex](https://github.com/erikw/cvcd-latex) - The CV LaTeX source project
+* [erikw/cvcd-latex](https://github.com/erikw/cvcd-latex) - The CV LaTeX source project. 
 * [erikw/cvcd-website](https://github.com/erikw/cvcd-website) - Personal website (GitHub pages hosted Jekyll) to where the `cv.pdf` is deployed to.
 
 # The CV
