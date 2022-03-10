@@ -7,7 +7,7 @@ Example of how to continuously deploy a CV written in LaTeX to a personal websit
 * [erikw/cvcd-website](https://github.com/erikw/cvcd-website) - Personal website (GitHub pages hosted Jekyll) to where the `cv.pdf` is deployed to.
 
 # The CV
-The CV is using the [moderncv](https://www.ctan.org/pkg/moderncv) package.
+The example CV is using the [moderncv](https://www.ctan.org/pkg/moderncv) class.
 
 To render the CV, simply use `latexmk(1)` (see [.latexmkrc](.latexmkrc)):
 ```console
